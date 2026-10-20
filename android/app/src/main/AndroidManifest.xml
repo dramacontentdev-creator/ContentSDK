@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- The SDK loads videos and ads from the network. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".DemoApplication"
+        android:allowBackup="false"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ContentSdkDemo">
+
+        <!--
+            Content SDK - integration Step 3 (manifest)
+            Put YOUR AdMob *Application* ID here (format: ca-app-pub-XXXXXXXXXXXXXXXX~YYYYYYYYYY).
+            It is not the Content App ID, and not an ad unit ID.
+            The value below is Google's public TEST ID - replace it with yours before release.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

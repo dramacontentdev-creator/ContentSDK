@@ -1,0 +1,164 @@
+PODS:
+  - Ads-Global (8.2.1.0):
+    - Ads-Global/BUAdSDK (= 8.2.1.0)
+  - Ads-Global/BUAdSDK (8.2.1.0):
+    - Ads-Global/PangleSDK
+    - Ads-Global/TikTokBusinessSDK
+  - Ads-Global/PangleSDK (8.2.1.0)
+  - Ads-Global/TikTokBusinessSDK (8.2.1.0)
+  - AppLovinSDK (13.6.4)
+  - ContentSdk (1.1.1):
+    - Google-Mobile-Ads-SDK (~> 13.0)
+    - GoogleMobileAdsMediationAppLovin (= 13.6.4.0)
+    - GoogleMobileAdsMediationFacebook (= 6.22.0.0)
+    - GoogleMobileAdsMediationIronSource (= 9.5.0.0.0)
+    - GoogleMobileAdsMediationMintegral (= 8.1.7.0)
+    - GoogleMobileAdsMediationMoloco (= 4.9.1.0)
+    - GoogleMobileAdsMediationPangle (= 8.2.1.0.0)
+    - GoogleMobileAdsMediationUnity (= 4.20.0.0)
+    - GoogleMobileAdsMediationVungle (= 7.7.6.0)
+    - GoogleUserMessagingPlatform
+    - HyprMX-AdMob (= 6.4.3.0)
+  - FBAudienceNetwork (6.22.0)
+  - Google-Mobile-Ads-SDK (13.9.0):
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleMobileAdsMediationAppLovin (13.6.4.0):
+    - AppLovinSDK (= 13.6.4)
+    - Google-Mobile-Ads-SDK (~> 13.3)
+  - GoogleMobileAdsMediationFacebook (6.22.0.0):
+    - FBAudienceNetwork (= 6.22.0)
+    - Google-Mobile-Ads-SDK (~> 13.3)
+  - GoogleMobileAdsMediationIronSource (9.5.0.0.0):
+    - Google-Mobile-Ads-SDK (~> 13.3)
+    - IronSourceSDK (= 9.5.0.0)
+  - GoogleMobileAdsMediationMintegral (8.1.7.0):
+    - Google-Mobile-Ads-SDK (~> 13.3)
+    - MintegralAdSDK/All (= 8.1.7)
+  - GoogleMobileAdsMediationMoloco (4.9.1.0):
+    - Google-Mobile-Ads-SDK (~> 13.3)
+    - MolocoSDKiOS (= 4.9.1)
+  - GoogleMobileAdsMediationPangle (8.2.1.0.0):
+    - Ads-Global (= 8.2.1.0)
+    - Google-Mobile-Ads-SDK (~> 13.6)
+  - GoogleMobileAdsMediationUnity (4.20.0.0):
+    - Google-Mobile-Ads-SDK (~> 13.3)
+    - UnityAds (= 4.20.0)
+  - GoogleMobileAdsMediationVungle (7.7.6.0):
+    - Google-Mobile-Ads-SDK (~> 13.3)
+    - VungleAds (= 7.7.6)
+  - GoogleUserMessagingPlatform (3.1.0)
+  - HyprMX (6.4.3):
+    - HyprMX/HyprMX-SDK (= 6.4.3)
+  - HyprMX-AdMob (6.4.3.0):
+    - Google-Mobile-Ads-SDK
+    - HyprMX (= 6.4.3)
+    - HyprMX-AdMob/HyprMX-AdMob-Adapter (= 6.4.3.0)
+  - HyprMX-AdMob/Core (6.4.3.0):
+    - Google-Mobile-Ads-SDK
+    - HyprMX (= 6.4.3)
+  - HyprMX-AdMob/HyprMX-AdMob-Adapter (6.4.3.0):
+    - Google-Mobile-Ads-SDK
+    - HyprMX (= 6.4.3)
+    - HyprMX-AdMob/Core
+  - HyprMX/Core (6.4.3)
+  - HyprMX/HyprMX-SDK (6.4.3):
+    - HyprMX/Core
+  - IronSourceAdQualitySDK (9.9.0)
+  - IronSourceSDK (9.5.0.0):
+    - IronSourceSDK/AdQuality (= 9.5.0.0)
+    - IronSourceSDK/Ads (= 9.5.0.0)
+  - IronSourceSDK/AdQuality (9.5.0.0):
+    - IronSourceAdQualitySDK (~> 9)
+  - IronSourceSDK/Ads (9.5.0.0)
+  - MintegralAdSDK/All (8.1.7):
+    - MintegralAdSDK/BannerAd
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/InterstitialVideoAd
+    - MintegralAdSDK/NativeAd
+    - MintegralAdSDK/NativeAdvancedAd
+    - MintegralAdSDK/NewInterstitialAd
+    - MintegralAdSDK/RewardVideoAd
+    - MintegralAdSDK/SplashAd
+  - MintegralAdSDK/BannerAd (8.1.7):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/BidNativeAd (8.1.7):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/InterstitialVideoAd (8.1.7):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/NativeAd (8.1.7)
+  - MintegralAdSDK/NativeAdvancedAd (8.1.7):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/NewInterstitialAd (8.1.7):
+    - MintegralAdSDK/InterstitialVideoAd
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/RewardVideoAd (8.1.7):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/SplashAd (8.1.7):
+    - MintegralAdSDK/NativeAd
+  - MolocoSDKiOS (4.9.1)
+  - UnityAds (4.20.0):
+    - IronSourceAdQualitySDK (< 10.0.0)
+    - UnityCoherenceLib (= 0.1.0)
+  - UnityCoherenceLib (0.1.0)
+  - VungleAds (7.7.6)
+
+DEPENDENCIES:
+  - ContentSdk (from `./ContentSdk`)
+
+SPEC REPOS:
+  trunk:
+    - Ads-Global
+    - AppLovinSDK
+    - FBAudienceNetwork
+    - Google-Mobile-Ads-SDK
+    - GoogleMobileAdsMediationAppLovin
+    - GoogleMobileAdsMediationFacebook
+    - GoogleMobileAdsMediationIronSource
+    - GoogleMobileAdsMediationMintegral
+    - GoogleMobileAdsMediationMoloco
+    - GoogleMobileAdsMediationPangle
+    - GoogleMobileAdsMediationUnity
+    - GoogleMobileAdsMediationVungle
+    - GoogleUserMessagingPlatform
+    - HyprMX
+    - HyprMX-AdMob
+    - IronSourceAdQualitySDK
+    - IronSourceSDK
+    - MintegralAdSDK
+    - MolocoSDKiOS
+    - UnityAds
+    - UnityCoherenceLib
+    - VungleAds
+
+EXTERNAL SOURCES:
+  ContentSdk:
+    :path: "./ContentSdk"
+
+SPEC CHECKSUMS:
+  Ads-Global: 46a918b0dfddf82137187d73d8ec40b5d49cf77e
+  AppLovinSDK: 730be87bac90c5b0f7d507c3a2530213f7685370
+  ContentSdk: 0a3d849b2bcf77b71aa6552b89719da439ed5c1d
+  FBAudienceNetwork: b05c65487114aa3bf3a68e865c60937a9fb03b69
+  Google-Mobile-Ads-SDK: cec761d0da669c462bcc19cd16c747498b9f39f7
+  GoogleMobileAdsMediationAppLovin: bd2c7430ec7cc319f65139f18edcf48694d0bf81
+  GoogleMobileAdsMediationFacebook: 213c2a7cabd34f2e4115c3e7fa4780256043db42
+  GoogleMobileAdsMediationIronSource: f60a4fe22f727000996b773599397eccf16412cf
+  GoogleMobileAdsMediationMintegral: 9dcaf262a0c0eff66c9bd3e80ead99d5e680685e
+  GoogleMobileAdsMediationMoloco: a6cacb1909072f377e128ba4e526ce179627f2cb
+  GoogleMobileAdsMediationPangle: bfe8660a4c965503110050c73f01f44f1b0a4063
+  GoogleMobileAdsMediationUnity: 9717cf23332a8d1a4e137b479edbfd4528e1fc3c
+  GoogleMobileAdsMediationVungle: 98d93abc120a7ef76b6f67840b7e1a854c8bc1f5
+  GoogleUserMessagingPlatform: befe603da6501006420c206222acd449bba45a9c
+  HyprMX: 1a4a43efe8cae45a6e942880c1890dfc8f0e9e37
+  HyprMX-AdMob: 416a67c4c04d47bc67bae4c3e79d51dd510ab2a2
+  IronSourceAdQualitySDK: 8797f78661d72fc2bef00e8c1055047132dc7249
+  IronSourceSDK: 49ea480ee16cebcdfb98f7cad08eef1eb17661ed
+  MintegralAdSDK: 611e5c22c00dcb8305481ea3319e7d42ff3a37b7
+  MolocoSDKiOS: 4a97a984a23011271dba220c9f4f5a5d01366f55
+  UnityAds: aac7752619961224969a1bfea8b5077d2b93005f
+  UnityCoherenceLib: d9be08c5b9c2880cb220c7ecd643f97ebda422b7
+  VungleAds: 3b73c5e680c4c956ade61f3b0791e9b270914548
+
+PODFILE CHECKSUM: 0daf4f73d25adc71395e4b410601d75002fd5538
+
+COCOAPODS: 1.17.0

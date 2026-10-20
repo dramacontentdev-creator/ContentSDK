@@ -1,0 +1,22 @@
+# Content SDK - integration Step 1 (dependencies)
+#
+# 1. Download the iOS SDK package (ContentSdk-iOS-<version>).
+# 2. Copy its whole content into ./ContentSdk next to this Podfile
+#    (ContentSdk.podspec, ContentSdk.xcframework, compose-resources, ...).
+# 3. Run `pod install`, then open ContentSdkDemo.xcworkspace (not the .xcodeproj).
+#
+# The Pod brings the SDK, its resources and all ad dependencies.
+# Do NOT also drag ContentSdk.xcframework into Xcode manually.
+
+source 'https://cdn.cocoapods.org/'
+platform :ios, '16.0'
+use_frameworks!
+
+unless File.exist?(File.join(__dir__, 'ContentSdk', 'ContentSdk.podspec'))
+  abort("Content SDK package not found: copy the iOS SDK package content into ./ContentSdk " \
+        "(ContentSdk.podspec, ContentSdk.xcframework, compose-resources, ...). See README.")
+end
+
+target 'ContentSdkDemo' do
+  pod 'ContentSdk', :path => './ContentSdk'
+end

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!--
+		Content SDK - integration Step 2 (Info.plist)
+		Put YOUR AdMob *Application* ID here (format: ca-app-pub-XXXXXXXXXXXXXXXX~YYYYYYYYYY).
+		It is not the Content App ID, and not an ad unit ID.
+		The value below is Google's public TEST ID - replace it with yours before release.
+	-->
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-3940256099942544~1458002511</string>
+
+	<!--
+		REQUIRED by the SDK UI (built with Compose Multiplatform).
+		Allows 120 Hz on ProMotion iPhones. Without this key the app aborts on launch in Debug
+		builds with `PlistSanityCheck` / `kotlin.error` in the stack trace. Keep it set to true.
+	-->
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+
+	<!--
+		SKAdNetwork IDs used for ad attribution.
+		Only Google's ID is listed here to keep the sample short. In YOUR app, merge the FULL list
+		from SKAdNetworkItems.plist in the SDK package, and keep any entries you already have.
+	-->
+	<key>SKAdNetworkItems</key>
+	<array>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>cstr6suwn9.skadnetwork</string>
+		</dict>
+	</array>
+</dict>
+</plist>
